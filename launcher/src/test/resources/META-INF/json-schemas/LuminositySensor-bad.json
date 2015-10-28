@@ -1,0 +1,11 @@
+{
+  "LuminositySensor": {
+    "id" : "Luminosidad-11",
+    "loc" : {
+             "al" : 0.0 , 
+             "la" : 40.512967 ,
+             "lo" : -3.67495
+     },
+    "timestamp" : {"$date" : "2014-01-27T11:14:00Z"}
+  }
+}

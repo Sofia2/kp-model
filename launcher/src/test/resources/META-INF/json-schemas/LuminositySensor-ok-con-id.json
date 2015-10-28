@@ -1,0 +1,14 @@
+{
+ "_id" : { "$oid" : "50f2c16b25e3cd17e633c7c5"} , 
+  "LuminositySensor": {
+    "id" : "Luminosidad-11",
+    "va" : 1234,
+    "un" : "Kp-0223",
+    "loc" : {
+             "al" : 0.0 , 
+             "la" : 40.512967 ,
+             "lon" : -3.67495
+     },
+    "timestamp" : {"$date" : "2014-01-27T11:14:00Z"}
+  }
+}

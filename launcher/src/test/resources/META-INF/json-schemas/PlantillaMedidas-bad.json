@@ -1,0 +1,12 @@
+{"MeasurementsPairs":{
+   "id":"estacionNorte",
+   "timestamp":1357930309163,
+   "description":"medidas de estacion norte",
+   "measurements":[
+   {
+        "measure": "Presion atmosferica",
+         "value": 166.00
+   }
+   ]
+}
+}

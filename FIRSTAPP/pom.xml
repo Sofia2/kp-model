@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  © Indra Sistemas, S.A.
+  2013 - 2014  SPAIN
+  
+  All rights reserved
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.sofia2.firstapp</groupId>
+	<artifactId>FIRSTAPP</artifactId>
+	<packaging>war</packaging>
+	<version>1.0</version>
+	<name>app</name>
+
+	<repositories>
+		<repository>   
+	   		<id>SOFIA2</id>
+	    	<url>http://sofia2.org/nexus/content/groups/public/</url>
+		</repository>
+        <repository>
+            <id>spring-maven-release</id>
+            <name>Spring Maven Release Repository</name>
+            <url>http://maven.springframework.org/release</url>
+        </repository>
+        <repository>
+            <id>spring-maven-milestone</id>
+            <name>Spring Maven Milestone Repository</name>
+            <url>http://maven.springframework.org/milestone</url>
+        </repository>
+        <repository>
+            <id>spring-roo-repository</id>
+            <name>Spring Roo Repository</name>
+            <url>http://spring-roo-repository.springsource.org/release</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-maven-release</id>
+            <name>Spring Maven Release Repository</name>
+            <url>http://maven.springframework.org/release</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>spring-maven-milestone</id>
+            <name>Spring Maven Milestone Repository</name>
+            <url>http://maven.springframework.org/milestone</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>spring-roo-repository</id>
+            <name>Spring Roo Repository</name>
+            <url>http://spring-roo-repository.springsource.org/release</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+	<dependencies>
+		<!-- KPMODELO -->
+		<dependency>
+			<groupId>com.indra.sofia2</groupId>
+			<artifactId>launcher</artifactId>
+			<version>1.0.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- MYCILA -->
+		<dependency>
+			<groupId>com.mycila</groupId>
+			<artifactId>mycila-pubsub</artifactId>
+			<version>5.0.ga</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- SSAP CORE -->
+        <dependency>
+	        <groupId>com.indra.sofia2</groupId>
+	    	<artifactId>ssap</artifactId>
+	    	<version>2.13.0</version>
+	    	<scope>provided</scope>
+    	</dependency>
+    	<dependency>
+    		<groupId>com.jsontojava</groupId>
+    		<artifactId>jsontojava</artifactId>
+    		<version>1.0</version>
+    		<scope>provided</scope>
+    	</dependency>
+	</dependencies>
+</project>

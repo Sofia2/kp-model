@@ -1,0 +1,56 @@
+{
+"AMON":{
+  "devices": [
+    {
+      "deviceId": "82621440-fc7f-012c-25a6-0017f2cd3574",
+      "entityId": "50af27e0-e61a-11e1-aff1-0800200c9a66",
+      "description": "Example 3 Device #1",
+      "readings": [
+        {
+          "type": "electricalInput"
+        },
+        {
+          "type": "electricalOutput"
+        },
+        {
+          "type": "electricalExport"
+        }
+      ],
+      "measurements": [
+        {
+          "type": "electricalInput",
+          "timestamp": "2010-07-02T11:39:09Z",
+          "value": 0.6
+        },
+        {
+          "type": "electricalOutput",
+          "timestamp": "2010-07-02T11:39:09Z",
+          "value": 4.5
+        },
+        {
+          "type": "electricalExport",
+          "timestamp": "2010-07-02T11:39:09Z",
+          "value": 3.9
+        }
+      ]
+    },
+    {
+      "deviceId": "d1635430-0381-012d-25a8-0017f2cd3574",
+      "entityId": "50af27e0-e61a-11e1-aff1-0800200c9a66",
+      "description": "Example 3 Device #2",
+      "readings": [
+        {
+          "type": "windDirection"
+        }
+      ],
+      "measurements": [
+        {
+          "type": "windDirection",
+          "timestamp": "2010-07-02T11:39:09Z",
+          "value": 243
+        }
+      ]
+    }
+  ]
+}
+}

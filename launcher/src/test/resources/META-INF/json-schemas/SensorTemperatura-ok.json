@@ -1,0 +1,12 @@
+{
+  "SensorTemperatura": {
+    "identificador":"ST-TA3231-1",
+    "timestamp":{"$date" : "2014-01-27T11:14:00Z"},
+    "medida":25.1,
+    "unidad":"C",
+      "geometry":{
+        "type": "Point",
+        "coordinates":[1,178]
+   }
+  }
+}

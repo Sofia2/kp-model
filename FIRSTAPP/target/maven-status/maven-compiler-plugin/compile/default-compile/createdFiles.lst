@@ -1,0 +1,11 @@
+com\sofia2\firstapp\worker\Connection.class
+com\sofia2\firstapp\worker\NoConnection.class
+com\sofia2\firstapp\worker\StopApp.class
+com\sofia2\firstapp\worker\StartApp.class
+com\sofia2\firstapp\worker\DataInputLoop.class
+com\sofia2\firstapp\worker\Monitoring.class
+com\sofia2\firstapp\worker\SendServiceWrapper.class
+com\sofia2\firstapp\listener\SubscriptionListener.class
+com\sofia2\firstapp\worker\DataSendToSib.class
+com\sofia2\firstapp\worker\ErrorSendToSib.class
+com\sofia2\firstapp\worker\PrepareMessageToSend.class

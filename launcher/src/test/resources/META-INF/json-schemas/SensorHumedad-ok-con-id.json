@@ -1,0 +1,14 @@
+
+{
+    "_id" : { "$oid" : "50f2c16b25e3cd17e633c7c5"} , 
+    "SensorHumedad" : { 
+        "identificador" : "ST-TA3231-1" , 
+        "timestamp" : {"$date" : "2014-01-27T11:14:00Z"} , 
+        "medida" : 19 ,
+         "unidad":"C",
+         "geometry":{
+        "type": "Point",
+        "coordinates":[11,-180]
+   }
+      }
+} 

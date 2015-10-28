@@ -1,0 +1,22 @@
+{
+"AMON":{
+  "devices": [
+    {
+      "deviceId": "ed221bf0-d075-012d-287e-0017f2cd3574",
+      "entityId": "50af27e0-e61a-11e1-aff1-0800200c9a66",
+      "description": "Example 5 Device",
+      "readings": [
+        {
+          "type": "windowOpen"
+        }
+      ],
+      "measurements": [
+        {
+          "type": "windowOpen",
+          "value": true
+        }
+      ]
+    }
+  ]
+}
+}

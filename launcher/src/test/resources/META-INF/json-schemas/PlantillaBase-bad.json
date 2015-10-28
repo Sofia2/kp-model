@@ -1,0 +1,5 @@
+{
+"PlantillaBase":{
+    "timestamp" : {"$date" : "2014-01-27T11:14:00Z"} 
+ }
+}

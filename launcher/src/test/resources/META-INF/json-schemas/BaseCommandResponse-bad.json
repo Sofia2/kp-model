@@ -1,0 +1,8 @@
+{
+  "BaseCommandResponse": {
+    "timestamp" : 1,
+    "sourceKpInstance" : "kpName:kpInstance02",
+    "ok" : true,
+    "commandRequestId" : "10fa-23u3-aab2-892d"
+    }
+}

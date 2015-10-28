@@ -1,0 +1,13 @@
+{"Sensor":{
+   "timestamp":{"$date" : "2014-01-27T11:14:00Z"},
+   "assetId":"ST-TA3231-1",
+   "measure":25.1,
+   "sensorMeasure":20.1,
+   "correctedMeasure":18.2,
+   "geometry":{
+        "type": "Point",
+        "coordinates":[30,180]
+   },
+   "groupId":"ST-TA323234"
+}
+}

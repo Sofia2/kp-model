@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-03/schema#",
+    "title": "SensorTemperatura Schema",
+    "type": "object",
+    "properties": {
+        "SensorTemperatura": {
+            "type": "string",
+            "$ref": "#/datos"
+        }
+    },
+    "datos": {
+        "title": "datos",
+        "description": "Info SensorTemperatura",
+        "type": "object",
+        "properties": {
+            "identificador": {
+                "type": "string",
+                "required": true
+            },
+            "timestamp": {
+                "type": "integer",
+                "minimum": 0,
+                "required": true
+            },
+            "temperatura": {
+                "type": "number",
+                "required": true
+            },
+            "coordenadaGps": {
+                "required": true,
+                "$ref": "#/gps"
+            }
+        }
+    },          
+        "gps": {
+            "title": "gps",
+            "description": "Gps SensorTemperatura",
+            "type": "object",
+            "properties": {
+                "altitud": {
+                    "type": "number",
+                    "required": false
+                },
+                "latitud": {
+                    "type": "number",
+                    "required": true
+                },
+                "longitud": {
+                    "type": "number",
+                    "required": true
+                }
+            }
+        },
+        "additionalItems": false
+    }
+}
+

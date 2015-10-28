@@ -1,0 +1,42 @@
+{
+"AMON":{
+  "devices": [
+    {
+      "deviceId": "c1810810-0381-012d-25a8-0017f2cd3574",
+      "entityId": "50af27e0-e61a-11e1-aff1-0800200c9a66",
+      "description": "Example 2 Device",
+      "meteringPointId": "c1759810-90f3-012e-0404-34159e211070",
+      "readings": [
+        {
+          "type": "apparentPower",
+          "unit": "kVAh",
+          "accuracy": 0.01
+        },
+        {
+          "type": "reactivePower",
+          "unit": "kVArh",
+          "accuracy": 0.2
+        }
+      ],
+      "measurements": [
+        {
+          "type": "apparentPower",
+          "timestamp": "2010-07-02T11:39:09Z",
+          "value": 7.23
+        },
+        {
+          "type": "reactivePower",
+          "timestamp": "2010-07-02T11:44:09Z",
+          "value": 6.8
+        }
+      ]
+    }
+  ],
+  "meteringPoints": [
+    {
+      "meteringPointId": "c1759810-90f3-012e-0404-34159e211070",
+      "description": "Example 2 Metering Point"
+    }
+  ]
+}
+}

@@ -1,0 +1,10 @@
+{
+  "_id" : { "$oid" : "50f2c16b25e3cd17e633c7c5"} , 
+  "BaseCommandRequest": {
+    "timestamp" : {"$date" : "2014-01-27T11:14:00Z"},
+    "targetKpInstance" : "kpName:kpInstance01",
+    "sourceKpInstance" : "kpName:kpInstance02",
+    "command" : "comando",
+    "commandRequestId" : "10fa-23u3-aab2-892d"
+    }
+}

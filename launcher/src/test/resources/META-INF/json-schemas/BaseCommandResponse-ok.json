@@ -1,0 +1,10 @@
+{
+  "Response": {
+    
+    "timestamp" : {"$date" : "2014-01-27T11:14:00Z"},
+    "assetId":"asset",
+    "targetKpInstance" : "kpName:kpInstance01",
+    "requestId" : "kpName:kpInstance02",
+    "response" : "ok"
+     }
+}

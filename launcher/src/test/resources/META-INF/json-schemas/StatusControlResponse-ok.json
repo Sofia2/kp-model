@@ -1,0 +1,13 @@
+{
+  "StatusControlRequest": {
+    "timestamp" : {"$date" : "2014-01-27T11:14:00Z"},
+    "targetKpInstance" : "kpName:kpInstance01",
+    "sourceKpInstance" : "kpName:kpInstance02",
+    "request" : [
+        {"key" : "clave1" , "value" : "valor1"},
+        {"key" : "clave2" , "value" : "valor2"},
+        {"key" : "clave3" , "value" : "valor3"},
+        {"key" : "clave4" , "value" : "valor4"}
+        ]
+    }
+}

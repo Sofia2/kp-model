@@ -1,0 +1,9 @@
+{
+  "Alarma": {
+    "mensajeAlarma" : "Alarma-11",
+    "mensajeExcepcion" : "Imposible conectar",
+    "causa" : "Causa desconocida",
+    "timestamp" : 1357930309163
+  }
+  
+}

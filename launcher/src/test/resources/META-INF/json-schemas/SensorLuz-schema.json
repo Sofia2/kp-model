@@ -1,0 +1,91 @@
+{
+    "$schema": "http://json-schema.org/draft-03/schema#",
+    "title": "SensorLuz Schema",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "object",
+            "$ref": "#/id"
+        },
+        "SensorLuz": {
+            "type": "string",
+            "$ref": "#/datos"
+        }
+    },
+    "id": {
+        "title": "id",
+        "description": "Id insertado del Watorimetro",
+        "type": "object",
+        "properties": {
+            "$oid": {
+                "type": "string",
+                "required": false
+            }
+        }
+    },  
+    "datos": {
+        "title": "datos",
+        "description": "Info Watorimetro",
+        "type": "object",
+        "properties": {
+            "identificador": {
+                "type": "string",
+                "required": false
+            },
+            "timestamp": {
+                "type": "integer",
+                "minimum": 0,
+                "required": false
+            },
+            "medida": {
+                "type": "number",
+                "required": false
+            },
+            "unidad": {
+                "type": "string",
+                "required": false
+            },
+            "value": {
+                "type": "number",
+                "required": true
+            },
+            "unit": {
+                "type": "string",
+                "required": true
+            },
+            "location": {
+                "required": true,
+                "$ref":"#/ggs"
+            },
+            "coordenadaGps": {
+                "required": false,
+                "$ref": "#/gps"
+            }
+        }
+    },          
+        "gps": {
+            "title": "gps",
+            "description": "Gps SensorLuz",
+            "type": "object",
+            "properties": {
+                "altitud": {
+                    "type": "number",
+                    "required": false
+                },
+                "latitud": {
+                    "type": "number",
+                    "required": true
+                },
+                "longitud": {
+                    "type": "number",
+                    "required": true
+                }
+            }
+        },
+        "additionalItems": false,
+        "ggs":{
+        
+        }
+    }
+}
+

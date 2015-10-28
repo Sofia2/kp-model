@@ -1,0 +1,7 @@
+{
+"BasicSensor":{
+    "timestamp" : {"$date" : "2014-01-27T11:14:00Z"} ,
+    "assetId": "SATAWE",
+    "measure": 21234
+ }
+}

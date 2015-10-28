@@ -1,0 +1,13 @@
+{"Sensor":{
+   "timestamp":1357930309163,
+   "assetId":"ST-TA3231-1",
+   "measure":25.1,
+   "sensorMeasure":20.1,
+   "correctedMeasure":18.2,
+   "geometry":{
+        "type": "x",
+        "coordinates":[110.2,1234]
+   },
+   "groupId":"ST-TA323234"
+}
+}

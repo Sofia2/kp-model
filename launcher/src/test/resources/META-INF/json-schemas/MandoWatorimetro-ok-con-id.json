@@ -1,0 +1,7 @@
+{
+    "_id" : { "$oid" : "50f2c16b25e3cd17e633c7c5"} , 
+    "MandoWatorimetro" : {  
+        "timestamp" : {"$date" : "2014-01-27T11:14:00Z"} , 
+         "activo" : true
+      }
+} 

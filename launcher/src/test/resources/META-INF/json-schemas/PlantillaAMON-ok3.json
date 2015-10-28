@@ -1,0 +1,17 @@
+{
+"AMON":{
+  "entities": [
+    {
+      "entityId": "90636240-0381-012d-25a8-0017f2cd3574",
+      "description": "Example 4 Entity",
+      "deviceIds": [
+        "c1810810-0381-012d-25a8-0017f2cd3574",
+        "d46ec860-fc7d-012c-25a6-0017f2cd3574"
+      ],
+      "meteringPointIds": [
+        "c1759810-90f3-012e-0404-34159e211070"
+      ]
+    }
+  ]
+}
+}

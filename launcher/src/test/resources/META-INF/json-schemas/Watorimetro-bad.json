@@ -1,0 +1,10 @@
+{
+  "Watorimetro": {
+    "identificador":"ST-TA3231-1",
+    "timestamp":1357930309163,
+     "geometry":{
+        "type": "Point",
+        "coordinates":[99,180]
+   }
+   }
+}

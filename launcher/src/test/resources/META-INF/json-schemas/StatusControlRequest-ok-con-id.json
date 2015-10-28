@@ -1,0 +1,14 @@
+{
+  "_id" : { "$oid" : "50f2c16b25e3cd17e633c7c5"} ,
+  "StatusControlRequest": {
+    "timestamp" : {"$date" : "2014-01-27T11:14:00Z"},
+    "targetKpInstance" : "kpName:kpInstance01",
+    "sourceKpInstance" : "kpName:kpInstance02",
+    "request" : [
+        {"key" : "clave1"},
+        {"key" : "clave2"},
+        {"key" : "clave3"},
+        {"key" : "clave4"}
+        ]
+  }
+}

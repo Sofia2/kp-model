@@ -1,0 +1,9 @@
+{
+  "Alarma": {
+    "mensajeAlarma" : "Alarma-11",
+    "mensajeExcepcion" : "Imposible conectar",
+    "procedenciaAlarma" : "Kp-0223",
+    "causa" : "Causa desconocida",
+    "timestamp" : {"$date" : "2014-01-27T11:14:00Z"}
+  }
+}
