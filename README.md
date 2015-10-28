@@ -2,7 +2,7 @@
 
 *Read this in other languages: [English](README.md), [Spanish](README.es.md).*
 
-## You'll just have to import it 
+## Copyright notice
 © 2013-15 Indra Sistemas S.A.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.
